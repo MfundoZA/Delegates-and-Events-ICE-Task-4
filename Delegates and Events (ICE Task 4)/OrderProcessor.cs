@@ -19,6 +19,12 @@ namespace Delegates_and_Events__ICE_Task_4_
             orderSubmitted += donuteer.packDonuts;
             orderSubmitted += barista.makeCoffee;
 
+            if (order.IsTakeAway)
+            {
+                orderSubmitted += cashier.packageOrder;
+            }
+            
+
             onOrderSubmitted(order);
         }
 

@@ -39,7 +39,7 @@ namespace Delegates_and_Events__ICE_Task_4_
             Order order = new Order(customerName, numberOfDonuts, numberOfCoffeeCups, isTakeAway);
 
             OrderProcessor orderProcessor = new OrderProcessor();
-            orderProcessor.orderSubmitted(order);
+            orderProcessor.processOrder(order);
         }
     }
 }

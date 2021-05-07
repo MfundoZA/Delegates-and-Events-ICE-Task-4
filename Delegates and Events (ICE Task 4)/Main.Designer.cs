@@ -45,7 +45,7 @@ namespace Delegates_and_Events__ICE_Task_4_
             this.txtNumDonuts.Name = "txtNumDonuts";
             this.txtNumDonuts.PlaceholderText = "How many donuts would you like?";
             this.txtNumDonuts.Size = new System.Drawing.Size(207, 23);
-            this.txtNumDonuts.TabIndex = 0;
+            this.txtNumDonuts.TabIndex = 1;
             // 
             // txtNumCoffee
             // 
@@ -53,14 +53,14 @@ namespace Delegates_and_Events__ICE_Task_4_
             this.txtNumCoffee.Name = "txtNumCoffee";
             this.txtNumCoffee.PlaceholderText = "How many cups of coffee?";
             this.txtNumCoffee.Size = new System.Drawing.Size(207, 23);
-            this.txtNumCoffee.TabIndex = 1;
+            this.txtNumCoffee.TabIndex = 2;
             // 
             // btnSubmitOrder
             // 
             this.btnSubmitOrder.Location = new System.Drawing.Point(106, 358);
             this.btnSubmitOrder.Name = "btnSubmitOrder";
             this.btnSubmitOrder.Size = new System.Drawing.Size(103, 23);
-            this.btnSubmitOrder.TabIndex = 3;
+            this.btnSubmitOrder.TabIndex = 4;
             this.btnSubmitOrder.Text = "Submit Order";
             this.btnSubmitOrder.UseVisualStyleBackColor = true;
             this.btnSubmitOrder.Click += new System.EventHandler(this.btnSubmitOrder_Click);
@@ -72,7 +72,7 @@ namespace Delegates_and_Events__ICE_Task_4_
             this.grpTakeAway.Location = new System.Drawing.Point(55, 256);
             this.grpTakeAway.Name = "grpTakeAway";
             this.grpTakeAway.Size = new System.Drawing.Size(207, 62);
-            this.grpTakeAway.TabIndex = 4;
+            this.grpTakeAway.TabIndex = 3;
             this.grpTakeAway.TabStop = false;
             this.grpTakeAway.Text = "Take-away?";
             // 
@@ -105,7 +105,7 @@ namespace Delegates_and_Events__ICE_Task_4_
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.PlaceholderText = "Customer Name";
             this.txtCustomerName.Size = new System.Drawing.Size(207, 23);
-            this.txtCustomerName.TabIndex = 5;
+            this.txtCustomerName.TabIndex = 0;
             // 
             // frmMain
             // 
